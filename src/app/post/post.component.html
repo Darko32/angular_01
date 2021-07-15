@@ -1,0 +1,6 @@
+
+<form #addCustomerForm="ngForm" (submit)="addCustomer(addCustomerForm)">
+<input type="text" [(ngModel)]="description" name="description" class="shareInput" placeholder="What's in your mind?" />
+<button type="submit">Add Post</button>
+
+</form>

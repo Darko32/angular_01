@@ -1,0 +1,91 @@
+<div>
+    <div class="topbarContainer">
+        <div class="topbarLeft">
+            <span class="logo">Facelook </span>
+        </div>
+        <div class="topbarCenter">
+            <div class="searchbar">
+                <input placeholder="Search for friend, post or video" class="searchInput" />
+            </div>
+        </div>
+        <div class="topbarRight">
+            <div class="topbarLinks">
+                <span class="topbarLink">Homepage</span>
+                <span class="topbarLink">Timeline</span>
+            </div>
+            <div class="topbarIcons">
+                <div class="topbarIconItem">
+                    <span class="topbarIconBadge">1</span>
+                </div>
+                <div class="topbarIconItem">
+                    <span class="topbarIconBadge">2</span>
+                </div>
+                <div class="topbarIconItem">
+                    <span class="topbarIconBadge">1</span>
+                </div>
+            </div>
+            <img src="" alt="" class="topbarImg" />
+        </div>
+    </div>
+
+    <div class="profile">
+        <div class="sidebar"></div>
+        <div class="profileRight">
+            <div class="profileRightTop">
+                <div class="profileCover">
+                    <img class="profileCoverImg" src="./../assets/instagram.jpg" alt="" />
+                    <img class="profileUserImg" src="./../assets/avatar.jpg" alt="" />
+                </div>
+                <div class="profileInfo">
+                    <h4 class="profileInfoName">Darko</h4>
+                    <span class="profileInfoDesc"></span>
+                </div>
+            </div>
+            <div class="profileRightBottom">
+                <div class="share">
+                    <div class="shareWrapper">
+                        <div class="shareTop">
+                            <img class="shareProfileImg" src="./../assets/avatar.jpg" alt="" />
+                            <app-post></app-post>
+                        </div>
+                        <hr className="shareHr" />
+
+
+                    </div>
+                    <app-edit-posts></app-edit-posts>
+                    <br/>
+                    <br/>
+                    <app-delete-posts></app-delete-posts>
+                </div>
+
+
+                <div class="rightbar">
+                    <div class="rightbarWrapper">
+                        <h4 class="rightbarTitle">User information</h4>
+                        <div class="rightbarInfo">
+                            <div class="rightbarInfoItem">
+                                <span class="rightbarInfoKey">City:</span>
+
+                            </div>
+                            <div className="rightbarInfoItem">
+                                <span class="rightbarInfoKey">From:</span>
+                            </div>
+                            <div className="rightbarInfoItem">
+                                <span class="rightbarInfoKey">Relationship:</span>
+
+                            </div>
+                        </div>
+                        <h4 class="rightbarTitle">User friends</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="profile_post"><app-header></app-header></div>
+</div>
+
+<!-- <app-post></app-post>
+<app-edit-posts></app-edit-posts>
+<app-delete-posts></app-delete-posts>
+<app-header></app-header> -->
